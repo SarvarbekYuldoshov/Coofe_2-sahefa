@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header__container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+}
+.header__item{
+    margin: 20px;
+}
+.header__link{
+    color:black;
+}
+.header__link:hover{
+    color:blue;
+}
+.hero__container{
+    border-radius: 20px;
+    background-image: url(../images/rasm2.svg);
+    background-repeat: no-repeat;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.hero__title{
+    margin-top: 100px;
+    margin-left: 50px;
+    color: aliceblue;
+    font-family: "Fraunces 9pt"  ,sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.hero__text{
+    margin-bottom: 300px;
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 450px;
+    color: aliceblue;
+    font-family: "Barlow"  ,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;    
+}
+
+.world__container{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.world__list{
+    display: flex;
+}
+.world__item{
+    margin: 100px;
+}
+.world__title{
+    color: #333D4B;
+    font-family: "Fraunces 9pt"  ,sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;    
+}
+.world__text{
+    width: 600px;
+    margin-top: 20px;
+    font-family: "Barlow" ,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;    
+}
+.wrapper{
+    margin-top: 200px;
+}
+.wrapper__container{
+    background-image: url(../images/rasm5.svg);
+    background-repeat: no-repeat;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.wrapper__list{
+    display: flex;
+}
+.wrapper__img{
+    margin-left: 80px;
+    margin-top: -100px;
+}
+.wrapper__title{
+    margin-left: 20px;
+    margin-top: 30px;
+    color: antiquewhite;
+    font-family: "Fraunces 9pt" ,sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;    
+}
+.wrapper__text{
+    margin-left: 20px;
+    width: 550px;
+    color: aliceblue;
+    margin-top: 40px;
+    font-family: "Barlow" ,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;    
+}
+.hover__container{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.hover__list{
+    margin-top: 50px;
+    display: flex;
+}
+.hover__item-two{
+     margin-left: 200px;    
+}
+.hover__item-three{
+    margin-left: 200px;    
+}
+.hover__title-one{
+    color: rgb(108, 104, 100);
+    font-family: "Fraunces 9pt" ,sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;    
+}
+.hover__title{
+    margin-top: 10px;
+    font-family: "Fraunces 9pt" ,sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;    
+}
+.hover__text{
+    margin-top: 20px;
+    font-family: "Barlow"  ,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.menu__container{
+    background: black;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+.menu__list{
+    align-items: center;
+    display: flex;
+}
+.menu__item{
+    margin: 30px;
+}
+.menu__img{
+    margin-top: 25px;
+}
+.menu__link{
+    margin-left: 20px;
+    color: #d6d2ca;
+    font-family: "Barlow"  ,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.9230769276618958px;
+    text-align: left;
+}
